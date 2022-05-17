@@ -116,9 +116,9 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"/Users/dylan/Documents/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
--r:"/Users/dylan/Documents/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/unityplastic.dll"
--r:"/Users/dylan/Documents/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"/Users/dylan/Documents/LevelDesignSpooky/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"/Users/dylan/Documents/LevelDesignSpooky/Library/PackageCache/com.unity.collab-proxy@1.15.16/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"/Users/dylan/Documents/LevelDesignSpooky/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"/Users/dylan/Documents/Unity/2021.3.2f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
 -r:"/Users/dylan/Documents/Unity/2021.3.2f1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
 -r:"/Users/dylan/Documents/Unity/2021.3.2f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"

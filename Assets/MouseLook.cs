@@ -21,6 +21,7 @@ public class MouseLook : MonoBehaviour
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+
     }
 
     // Update is called once per frame
@@ -34,20 +35,13 @@ public class MouseLook : MonoBehaviour
 
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         playerBody.Rotate(Vector3.up * mouseX);
-    }
 
-    public void teleport(float mouseY)
-    {
         if (walkedFarEnough)
         {
 
-            if (this.playerBody.localEulerAngles.y > 90 && this.playerBody.localEulerAngles.y < 180);
-            {
-                print("Teleport");
-                this.playerBody.position = new Vector3(teleportX, teleportY, teleportZ);
-                
-            }
+
         }
+
     }
 
     public void OnTriggerEnter(Collider col)
